@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1400" cy="150" r="300" fill="#1f6feb" opacity="0.08"/>
+
+  <text x="800" y="110" text-anchor="middle" font-family="Segoe UI, Arial" font-size="56" font-weight="700" fill="#e6edf3">GATHER → PLAN → EXECUTE → VERIFY</text>
+  <text x="800" y="170" text-anchor="middle" font-family="Segoe UI, Arial" font-size="30" fill="#8b949e">The Task Cycle — repeats until complete or redirected</text>
+
+  <!-- four boxes in a loop -->
+  <g font-family="Segoe UI, Arial" text-anchor="middle">
+    <rect x="120"  y="340" width="300" height="200" rx="20" fill="#1f6feb" opacity="0.9"/>
+    <text x="270"  y="430" font-size="42" font-weight="700" fill="#fff">GATHER</text>
+    <text x="270"  y="490" font-size="24" fill="#d4e0f5">read files</text>
+
+    <rect x="500"  y="340" width="300" height="200" rx="20" fill="#d29922" opacity="0.9"/>
+    <text x="650"  y="430" font-size="42" font-weight="700" fill="#fff">PLAN</text>
+    <text x="650"  y="490" font-size="24" fill="#f5e6c6">propose approach</text>
+
+    <rect x="880"  y="340" width="300" height="200" rx="20" fill="#3fb950" opacity="0.9"/>
+    <text x="1030" y="430" font-size="42" font-weight="700" fill="#fff">EXECUTE</text>
+    <text x="1030" y="490" font-size="24" fill="#d9f0dc">edit + run (approval)</text>
+
+    <rect x="1260" y="340" width="260" height="200" rx="20" fill="#f85149" opacity="0.9"/>
+    <text x="1390" y="430" font-size="42" font-weight="700" fill="#fff">VERIFY</text>
+    <text x="1390" y="490" font-size="24" fill="#f6d3d2">run tests · prove it</text>
+  </g>
+
+  <!-- arrows clockwise -->
+  <g stroke="#30363d" stroke-width="8" fill="none">
+    <path d="M 460 440 C 470 440, 478 440, 488 440"/>
+    <path d="M 840 440 C 850 440, 858 440, 868 440"/>
+    <path d="M 1220 440 C 1230 440, 1242 440, 1252 440"/>
+    <path d="M 1390 650 C 1390 700, 800 700, 270 650"/>
+  </g>
+
+  <text x="800" y="720" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" fill="#8b949e">Repeat → until the task is done or you redirect it</text>
+</svg>

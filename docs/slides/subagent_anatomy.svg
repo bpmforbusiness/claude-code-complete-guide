@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="110" text-anchor="middle" font-family="Segoe UI, Arial" font-size="56" font-weight="700" fill="#e6edf3">SUBAGENT ANATOMY</text>
+  <text x="800" y="170" text-anchor="middle" font-family="Segoe UI, Arial" font-size="30" fill="#8b949e">Six properties define a custom agent</text><rect x="120" y="280" width="430" height="170" rx="18" fill="#21262d" opacity="0.92"/>
+  <text x="335.0" y="355.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#fff">name</text>
+  <text x="335.0" y="405.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" fill="#d0d7de">unique id</text><rect x="580" y="280" width="430" height="170" rx="18" fill="#21262d" opacity="0.92"/>
+  <text x="795.0" y="355.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#fff">description</text>
+  <text x="795.0" y="405.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" fill="#d0d7de">when to suggest</text><rect x="1040" y="280" width="430" height="170" rx="18" fill="#21262d" opacity="0.92"/>
+  <text x="1255.0" y="355.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#fff">system prompt</text>
+  <text x="1255.0" y="405.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" fill="#d0d7de">role &amp; behavior</text><rect x="120" y="480" width="430" height="170" rx="18" fill="#21262d" opacity="0.92"/>
+  <text x="335.0" y="555.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#fff">tools</text>
+  <text x="335.0" y="605.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" fill="#d0d7de">permission boundary</text><rect x="580" y="480" width="430" height="170" rx="18" fill="#21262d" opacity="0.92"/>
+  <text x="795.0" y="555.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#fff">model</text>
+  <text x="795.0" y="605.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" fill="#d0d7de">capability vs speed</text><rect x="1040" y="480" width="430" height="170" rx="18" fill="#21262d" opacity="0.92"/>
+  <text x="1255.0" y="555.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="38" font-weight="700" fill="#fff">location</text>
+  <text x="1255.0" y="605.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" fill="#d0d7de">project or user scope</text><text x="800" y="790" text-anchor="middle" font-family="Segoe UI, Arial" font-size="28" fill="#8b949e">Memory scope: Project (.claude/) · User (~/.claude/) · None (stateless)</text></svg>

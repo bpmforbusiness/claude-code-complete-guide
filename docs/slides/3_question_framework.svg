@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0d1117"/><stop offset="100%" stop-color="#161b22"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <text x="800" y="110" text-anchor="middle" font-family="Segoe UI, Arial" font-size="56" font-weight="700" fill="#e6edf3">MAIN vs SUBAGENT</text>
+  <text x="800" y="170" text-anchor="middle" font-family="Segoe UI, Arial" font-size="30" fill="#8b949e">3-question decision framework — all 'no' = keep in main</text><rect x="300" y="250" width="1000" height="140" rx="18" fill="#1f6feb" opacity="0.92"/>
+  <text x="800.0" y="310.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="40" font-weight="700" fill="#fff">1. Clear role?</text>
+  <text x="800.0" y="360.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="26" fill="#d0d7de">defined success criteria → subagent</text><rect x="300" y="430" width="1000" height="140" rx="18" fill="#1f6feb" opacity="0.92"/>
+  <text x="800.0" y="490.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="40" font-weight="700" fill="#fff">2. Only conclusions?</text>
+  <text x="800.0" y="540.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="26" fill="#d0d7de">don't need the process → subagent</text><rect x="300" y="610" width="1000" height="140" rx="18" fill="#1f6feb" opacity="0.92"/>
+  <text x="800.0" y="670.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="40" font-weight="700" fill="#fff">3. Context crowded?</text>
+  <text x="800.0" y="720.0" text-anchor="middle" font-family="Segoe UI, Arial" font-size="26" fill="#d0d7de">offload heavy reads → subagent</text><text x="800" y="800" text-anchor="middle" font-family="Segoe UI, Arial" font-size="30" fill="#e6edf3">If ALL THREE are no → keep it in the main conversation</text></svg>
